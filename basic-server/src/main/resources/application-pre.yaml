@@ -1,0 +1,5 @@
+person:
+  id: 2
+  name: jack
+  age: 19
+  map: { k1: pre }

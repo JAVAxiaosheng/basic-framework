@@ -1,0 +1,5 @@
+person:
+  id: 3
+  name: marry
+  age: 20
+  map: { k1: prod }

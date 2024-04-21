@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    check-template: false
+    check-template-location: false
+server:
+  port: 8060

@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://47.117.145.106:3306/asset_manage?useSSL=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: Xp@199866
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.lz.learning.entity
