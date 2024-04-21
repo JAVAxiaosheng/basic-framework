@@ -24,4 +24,10 @@ public class UserInfoController {
     public Result<UserInfo> queryOneInfo(@RequestParam("id") Integer id) {
         return Result.succ(userInfoService.getOneUserInfoById(id));
     }
+
+    @GetMapping(value = "/get/one", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiOperation(value = "查询人员信息根据id", httpMethod = "GET")
+    public Result<UserInfo> queryOneInfoById(@RequestParam("id") Integer id) {
+        return Result.succ(userInfoService.getOneUserInfoById(id));
+    }
 }
