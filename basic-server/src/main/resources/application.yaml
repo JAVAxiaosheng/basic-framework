@@ -5,5 +5,5 @@ spring:
     check-template: false
     check-template-location: false
 server:
-  port: 8090
+  port: 5234
 
