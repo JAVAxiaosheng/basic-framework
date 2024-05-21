@@ -4,6 +4,13 @@ spring:
   thymeleaf:
     check-template: false
     check-template-location: false
+  application:
+    name: basic-framework
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.206.201:9068
+
 server:
   port: 5234
 
